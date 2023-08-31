@@ -1,0 +1,47 @@
+.main-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #111;
+}
+
+.contact-border {
+  background-color: rgb(75, 75, 75);
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 400px;
+}
+
+.contact-border h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-border form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-border input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-border button {
+  background-color: rgb(200, 174, 3);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-border button:hover {
+  background-color: #000000;
+  color: white;
+}
